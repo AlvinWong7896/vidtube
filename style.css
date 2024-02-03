@@ -443,3 +443,25 @@ nav{
 .side-video-list .vid-info{
     flex-basis: 49%;
 }
+
+/* ------- play-video media ------- */
+
+@media (max-width: 900px){
+    .play-video{
+        flex-basis: 100%;
+    }
+    .right-sidebar{
+        flex-basis: 100%;
+    }
+    .play-container{
+        padding-left: 5%;
+    }
+    .vid-description{
+        padding-left: 0;
+    }
+    .play-video .play-video a{
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+}
